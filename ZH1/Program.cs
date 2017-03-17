@@ -10,6 +10,14 @@ namespace ZH1
     {
         static void Main(string[] args)
         {
+            Hovirag hv = new Hovirag();
+            Szocske szcs = new Szocske();
+            Csiga cs = new Csiga();
+            Nyul ny = new Nyul();
+            Medve tre = new Medve();
+            Medve2 barna = new Medve2();
+
+
         }
     }
 }

@@ -5,11 +5,10 @@ using System.Text;
 
 namespace ZH1
 {
-    public class Hovirag : Kozos
+    public class Bolha : Kozos
     {
-        public int Lepesszamlalo;
+        Medve m = new Medve();
         public int Tav;
-
         public void Kilistaz()
         {
             throw new NotImplementedException();
@@ -19,7 +18,7 @@ namespace ZH1
         {
             for (int i = 0; i < 100; i++)
             {
-                Lepesszamlalo = 0;
+                Tav = m.Tav;
             }
         }
     }

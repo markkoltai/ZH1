@@ -5,7 +5,9 @@ using System.Text;
 
 namespace ZH1
 {
-    public class Kozos
+    public interface Kozos
     {
+        void Lepes();
+        void Kilistaz();
     }
 }
