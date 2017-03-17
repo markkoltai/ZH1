@@ -53,6 +53,7 @@
     <Compile Include="Nyúl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roka.cs" />
     <Compile Include="Szocske.cs" />
   </ItemGroup>
   <ItemGroup>

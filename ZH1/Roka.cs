@@ -5,14 +5,13 @@ using System.Text;
 
 namespace ZH1
 {
-    public class Szocske : Kozos
+    public class Roka : Kozos
     {
-        public int Lepesszamlalo;
         public int Tav;
-
+        public int Lepesszamlalo;
         public void Kilistaz()
         {
-            Console.WriteLine("Szocske megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
+            Console.WriteLine("Róka megtett táv, lépés: {0}, {1} ", Tav, Lepesszamlalo);
         }
 
         public void Lepes()
@@ -20,7 +19,8 @@ namespace ZH1
             for (int i = 0; i < 100; i++)
             {
                 Tav++;
-                Lepesszamlalo += 2;
+                Lepesszamlalo += 4;
+                continue;
             }
         }
     }

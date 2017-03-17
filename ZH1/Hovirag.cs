@@ -12,13 +12,14 @@ namespace ZH1
 
         public void Kilistaz()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hóvirág megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
         }
 
         public void Lepes()
         {
             for (int i = 0; i < 100; i++)
             {
+                Tav = 0;
                 Lepesszamlalo = 0;
             }
         }

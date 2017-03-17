@@ -28,7 +28,7 @@ namespace ZH1
 
         public void Kilistaz()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Nyul megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
         }
     }
 }

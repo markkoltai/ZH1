@@ -26,27 +26,27 @@ namespace ZH1
 
         public void Kilistaz()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(Lepesszamlalo.ToString());
+            Console.WriteLine("TréMedve megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
         }
     }
 
     public class Medve2 : Kozos
     {        
         public int Lepesszamlalo;
+        public int Tav;
 
         public void Lepes()
         {
             for (int i = 0; i < 100; i++)
             {
-                Lepesszamlalo++;                
+                Tav++;
+                Lepesszamlalo+=4;                
             }
         }
 
         public void Kilistaz()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(Lepesszamlalo.ToString());
+            Console.WriteLine("Barna medve megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
         }
     }
 }

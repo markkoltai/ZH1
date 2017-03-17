@@ -7,7 +7,7 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ZH1.Medve">
+  <Class Name="ZH1.Medve" Collapsed="true">
     <Position X="5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAABAAgAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
@@ -31,7 +31,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZH1.Hovirag">
+  <Class Name="ZH1.Hovirag" Collapsed="true">
     <Position X="5.5" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAgAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
@@ -39,7 +39,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZH1.Szocske">
+  <Class Name="ZH1.Szocske" Collapsed="true">
     <Position X="2.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAgAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
@@ -47,7 +47,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZH1.Medve2">
+  <Class Name="ZH1.Medve2" Collapsed="true">
     <Position X="7" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
@@ -55,11 +55,19 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZH1.Bolha">
+  <Class Name="ZH1.Bolha" Collapsed="true">
     <Position X="4" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Bolha.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ZH1.Roka">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAgAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Roka.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
