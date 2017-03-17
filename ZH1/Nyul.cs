@@ -10,6 +10,9 @@ namespace ZH1
         Medve m = new Medve();
         public int Lepesszamlalo;
         public int Tav;
+        public int VersenySzam = 6;
+        public int KorSzamlalo;
+
         public void Lepes()
         {
             for (int i = 0; i < 100; i++)
@@ -21,6 +24,12 @@ namespace ZH1
                     Tav += 4;
                     Lepesszamlalo += 3;
                 }
+                if (i % 10 == 0)
+                {
+                    KorSzamlalo++;
+                    Console.WriteLine("{0}. kör: ", KorSzamlalo);
+                    Kilistaz();
+                }
 
             }
 
@@ -28,7 +37,7 @@ namespace ZH1
 
         public void Kilistaz()
         {
-            Console.WriteLine("Nyul megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
+            Console.WriteLine("Nyul versenyszáma: {0}, megtett táv: {1}, lépés: {2}", VersenySzam, Tav, Lepesszamlalo);
         }
     }
 }

@@ -10,6 +10,8 @@ namespace ZH1
         public bool Ordit = false;
         public int Lepesszamlalo;
         public int Tav;
+        public int VersenySzam=3;
+        public int KorSzamlalo;
 
         public void Lepes()
         {
@@ -21,12 +23,18 @@ namespace ZH1
                 {
                     Ordit = true;
                 }
+                if (i % 10 == 0)
+                {
+                    KorSzamlalo++;
+                    Console.WriteLine("{0}. kör: ", KorSzamlalo);
+                    Kilistaz();
+                }
             }
         }
 
         public void Kilistaz()
         {
-            Console.WriteLine("TréMedve megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
+            Console.WriteLine("TréMedve versenyszáma: {0}, megtett táv: {1}, lépés: {2}", VersenySzam, Tav, Lepesszamlalo);
         }
     }
 
@@ -34,11 +42,19 @@ namespace ZH1
     {        
         public int Lepesszamlalo;
         public int Tav;
+        public int VersenySzam=4;
+        public int KorSzamlalo;
 
         public void Lepes()
         {
             for (int i = 0; i < 100; i++)
             {
+                if (i % 10 == 0)
+                {
+                    KorSzamlalo++;
+                    Console.WriteLine("{0}. kör: ", KorSzamlalo);
+                    Kilistaz();
+                }
                 Tav++;
                 Lepesszamlalo+=4;                
             }
@@ -46,7 +62,7 @@ namespace ZH1
 
         public void Kilistaz()
         {
-            Console.WriteLine("Barna medve megtett táv, lépés: {0}, {1}", Tav, Lepesszamlalo);
+            Console.WriteLine("Barna medve versenyszáma: {0}, megtett táv: {1}, lépés: {2}", VersenySzam, Tav, Lepesszamlalo);
         }
     }
 }
